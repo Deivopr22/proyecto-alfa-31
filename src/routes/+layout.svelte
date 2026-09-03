@@ -27,5 +27,12 @@
 
 
 <footer>
-	Este es mi pie de página
+	<div>© 2024 Studio. All rights reserved.</div>
+
+	<div>
+		<a href="https://www.linkedin.com/in/deivis-p%C3%A9rez-444045342/">LinkedIn</a>
+		<a href="https://github.com/Deivopr22">GitHub</a>
+		<a href="https://www.instagram.com/deivopr22/">Instagram</a>
+
+	</div>
 </footer>
