@@ -1,2 +1,5 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<section>
+    <h1>Creating digital experiences through intentional design</h1>
+        <p>A multidisciplinary design studio focused on editorial clarity, structural typography, and high-end minimalism. We strip away the unnecesary to reveal what truly matters.</p>
+    <button>View more</button>
+</section>
