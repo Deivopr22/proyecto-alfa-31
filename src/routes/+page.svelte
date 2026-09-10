@@ -8,7 +8,7 @@
     <div>
         <button class = "font-serif bg-black text-white px-4 py-2 rounded gap-4 flex justify-center items-center text-xs">
             <Icon icon="at-icons:arrow-turn-up-right" class="text-base"/>
-            VIEW WORK
+            View work
         </button>
     </div>
 </section>
