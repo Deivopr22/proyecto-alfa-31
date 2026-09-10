@@ -11,15 +11,15 @@
 <nav class = "flex justify-between items-center p-4 bg-gray-100">
 	<div>
 		<span></span>
-		<a href="/">STUDIO</a>
+		<a href="/" class="text-lg tracking-widest font-bold uppercase">STUDIO</a>
 	</div>
 
-	<div>
-		<a href="/">Home</a>
-		<a href="/projects">Projects</a>
-		<a href="/information">Information</a>
-		<a href="/summary">Summary</a>
-		<a href="/contact">Contact</a>
+	<div class ="flex gap-5 text-gray-600 text-xs tracking-widest uppercase">
+		<a href="/" class="font-bold hover:text-black">Home</a>
+		<a href="/projects" class="font-bold hover:text-black">Projects</a>
+		<a href="/information" class="font-bold hover:text-black">Information</a>
+		<a href="/summary" class="font-bold hover:text-black">Summary</a>
+		<a href="/contact" class="font-bold hover:text-black">Contact</a>
 	</div>
 </nav>
 
@@ -27,13 +27,13 @@
 {@render children()}
 
 
-<footer class = "flex justify-center items-center p-4 bg-gray-100">
+<footer class = "flex justify-between items-center p-4 bg-gray-200 text-xs">
 	<div>© 2024 Studio. All rights reserved.</div>
 
-	<div>
-		<a href="https://www.linkedin.com/in/deivis-p%C3%A9rez-444045342/">LinkedIn</a>
-		<a href="https://github.com/Deivopr22">GitHub</a>
-		<a href="https://www.instagram.com/deivopr22/">Instagram</a>
+	<div class="flex gap-6">
+		<a href="https://www.linkedin.com/in/deivis-p%C3%A9rez-444045342/" class="underline	underline-offset-3 hover:text-black">LinkedIn</a>
+		<a href="https://github.com/Deivopr22" class="underline	underline-offset-3 hover:text-black">GitHub</a>
+		<a href="https://www.instagram.com/deivopr22/" class="underline	underline-offset-3 hover:text-black">Instagram</a>
 
 	</div>
 </footer>
