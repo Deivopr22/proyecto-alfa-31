@@ -4,9 +4,9 @@
 
 
 <section class="py-54 flex-col gap-12 justify-start items-stretch grid grid-cols-1 px-4 md:px-12 lg:px-24">
-    <div class="items-start gap-4">
-        <h1 class="font-serif text-7xl font-bold flex">Summary</h1>
-        <p class="font-serif text-gray-600 flex ">A meticulous record of professional engagements, academic pursuits, and acquired competencies, emphasizing structural clarity and editorial precision</p>
+    <div class="items-start gap-4 flex flex-col">
+        <h1 class="font-serif text-7xl font-bold">Summary</h1>
+        <p class="font-serif text-gray-600">A meticulous record of professional engagements, academic pursuits, and acquired competencies, emphasizing structural clarity and editorial precision</p>
         <button class="bg-black text-white px-4 py-2 flex font-serif items-center gap-2"> <Icon icon ="akar-icons:download" class="text-base"/> Download PDF</button>
     </div>
 
