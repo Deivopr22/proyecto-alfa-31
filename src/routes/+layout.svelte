@@ -23,12 +23,14 @@
 	</div>
 </nav>
 
+<hr class="border-gray-300 border-t-2 w-full"/>
 
 {@render children()}
 
-
+<hr class="border-gray-300 border-t-2 w-full"/>
 <footer class = "flex justify-between items-center p-4 bg-gray-200 text-xs">
-	<div>© 2024 Studio. All rights reserved.</div>
+
+	<div class="font-serif font-bold">© 2024 Studio. All rights reserved.</div>
 
 	<div class="flex gap-6 text-gray-600">
 		<a href="https://www.linkedin.com/in/deivis-p%C3%A9rez-444045342/" class="underline	underline-offset-3 hover:text-black">LinkedIn</a>
@@ -37,3 +39,4 @@
 
 	</div>
 </footer>
+
