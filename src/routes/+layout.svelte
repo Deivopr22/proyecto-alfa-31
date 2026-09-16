@@ -11,7 +11,7 @@
 <nav class = "flex justify-between items-center p-4 bg-gray-100 shadow-md">
 	<div>
 		<span></span>
-		<a href="/" class="font-serif text-lg tracking-widest font-bold uppercase">STUDIO</a>
+		<a href="/" class="font-montserrat text-lg tracking-widest font-bold uppercase">STUDIO</a>
 	</div>
 
 	<div class ="flex gap-5 text-gray-600 text-xs tracking-widest uppercase">
@@ -30,7 +30,7 @@
 <hr class="border-gray-300 border-t-2 w-full shadow-lg"/>
 <footer class = "flex justify-between items-center p-4 bg-gray-200 text-xs">
 
-	<div class="font-serif font-bold">© 2024 Studio. All rights reserved.</div>
+	<div class="font-montserrat font-bold">© 2024 Studio. All rights reserved.</div>
 
 	<div class="flex gap-6 text-gray-600">
 		<a href="https://www.linkedin.com/in/deivis-p%C3%A9rez-444045342/" class="underline	underline-offset-3 hover:text-black">LinkedIn</a>

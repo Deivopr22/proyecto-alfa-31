@@ -2,15 +2,15 @@
     <img src="asd" alt="imagen mi proyecto">
 
     <div>
-        <h1 class="font-serif text-7xl font-bold flex">About me.</h1>
-        <p class="font-serif text-gray-600 flex ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-        <p class="font-serif text-gray-600 flex ">lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+        <h1 class="font-montserrat text-7xl font-bold flex">About me.</h1>
+        <p class="font-montserrat text-gray-600 flex ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+        <p class="font-montserrat text-gray-600 flex ">lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
 
     </div>
 
     <div>
-        <h2>Filosofía del diseño</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+        <h2 class="font-montserrat text-2xl font-bold">Filosofía del diseño</h2>
+        <p class="font-montserrat text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
     </div>
 
     <div>
