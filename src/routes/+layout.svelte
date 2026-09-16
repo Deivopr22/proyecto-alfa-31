@@ -8,7 +8,7 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-<nav class = "flex justify-between items-center p-4 bg-gray-100">
+<nav class = "flex justify-between items-center p-4 bg-gray-100 shadow-md">
 	<div>
 		<span></span>
 		<a href="/" class="font-serif text-lg tracking-widest font-bold uppercase">STUDIO</a>
@@ -27,7 +27,7 @@
 
 {@render children()}
 
-<hr class="border-gray-300 border-t-2 w-full"/>
+<hr class="border-gray-300 border-t-2 w-full shadow-lg"/>
 <footer class = "flex justify-between items-center p-4 bg-gray-200 text-xs">
 
 	<div class="font-serif font-bold">© 2024 Studio. All rights reserved.</div>

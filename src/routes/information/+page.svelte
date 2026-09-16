@@ -2,7 +2,7 @@
     <img src="asd" alt="imagen mi proyecto">
 
     <div>
-        <h1 class="font-serif text-7xl font-bold flex">Sobre mí.</h1>
+        <h1 class="font-serif text-7xl font-bold flex">About me.</h1>
         <p class="font-serif text-gray-600 flex ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
         <p class="font-serif text-gray-600 flex ">lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
 
@@ -14,8 +14,8 @@
     </div>
 
     <div>
-        <a href="https://www.instagram.com/deivopr22">Instagram</a>
-        <a href="https://github.com/Deivopr22">GitHub</a>
+        <a href="https://www.instagram.com/deivopr22" class="underline underline-offset-3 hover:text-gray-300 text-gray-700 text-xs uppercase">Instagram</a>
+        <a href="https://github.com/Deivopr22" class="underline underline-offset-3 hover:text-gray-300 text-gray-700 text-xs uppercase">GitHub</a>
     </div>
 
 </section>

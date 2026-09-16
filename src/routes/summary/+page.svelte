@@ -1,5 +1,6 @@
 <script>
     import Icon from '@iconify/svelte';
+    import summarycontent from '$lib/components/summarycontent.svelte';
 </script>
 
 
@@ -12,6 +13,7 @@
 
     <hr class="border-gray-300 border-t-2 w-full"/>
 
+   
     <div class="flex gap-8">
         <p class="font-serif text-2xl">Experience</p>
         <p class="font-serif text-md">2021 - Present</p>
@@ -19,6 +21,4 @@
         <p class="font-serif text-lg">Directed comprehensive spatial design projects focusing on reductive geometry and material purity.</p>
     
     </div>
-    <div></div>
-    <div></div>
 </section>
