@@ -49,7 +49,7 @@
                         id="fname" 
                         name="fname" 
                         placeholder="Your full name"
-                        class="border-b border-gray-300 py-2 text-sm bg-transparent focus:outline-none focus:border-black"
+                        class="outline-0 border-0 border-b border-gray-300 py-2 text-sm bg-transparent focus:outline-none focus:border-black"
                     >
                 </div>
 
@@ -60,7 +60,7 @@
                         id="email" 
                         name="email" 
                         placeholder="hello@example.com"
-                        class=" outline-0 border-0 border-b border-b-gray-300 py-2 text-sm bg-transparent focus:outline-none focus:border-black"
+                        class="outline-0 border-0 border-b border-b-gray-300 py-2 text-sm bg-transparent focus:outline-none focus:border-black"
                     >
                 </div>
 
@@ -71,7 +71,7 @@
                         name="message" 
                         rows="4" 
                         placeholder="Tell us about your project..."
-                        class="border-b border-gray-300 py-2 text-sm bg-transparent focus:outline-none focus:border-black resize-none"
+                        class="outline-0 border-0 border-b border-gray-300 py-2 text-sm bg-transparent focus:outline-none focus:border-black resize-none"
                     ></textarea>
                 </div>
 

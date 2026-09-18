@@ -17,6 +17,8 @@
         name={project.name}
         category={project.category}
         image={project.image}
+        id={project.id}
+        slug={project.slug}
       />
     {/each}
   </section>

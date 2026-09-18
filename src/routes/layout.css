@@ -4,9 +4,13 @@
 
 @font-face {
     font-family: Montserrat;
-    src: url('/Montserrat.ttf')
+    src: url('/Montserrat-VariableFont_wght.ttf');
 }
 
 @theme {
     --font-montserrat: 'Montserrat';
+}
+
+input, textarea {
+    outline: none !important;
 }
