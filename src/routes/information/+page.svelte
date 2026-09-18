@@ -1,16 +1,18 @@
 <section class="py-54 flex-col gap-12 justify-start items-stretch grid grid-cols-1 px-4 md:px-12 lg:px-24">
-    <img src="asd" alt="imagen mi proyecto">
+    <div class="flex justify-start gap-5">
+        <img src="asd" alt="imagen mi proyecto">
+    </div>
 
-    <div>
+    <div class="flex flex-col gap-6">
         <h1 class="font-montserrat text-7xl font-bold flex">About me.</h1>
-        <p class="font-montserrat text-gray-600 flex ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-        <p class="font-montserrat text-gray-600 flex ">lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+        <p class="font-montserrat text-gray-600 flex text-2xl">I am a multidisciplinary designer focused on creating digital experiences that strip away the unnecesarry. My works is rooted in the belief that true luxury lies in clarity, precision, and the masterful us of negative space.</p>
+        <p class="font-montserrat text-gray-600 flex text-2xl">With a background spanning editorial design, architecture, and digital interfaces, I approach every project as a structural puzzle. The goal is never to decorate, but to reveal the core essence of the brand or product through rigorous typgraphy and intentional grid systems.</p>
 
     </div>
 
-    <div>
+    <div class="flex flex-col gap-6">
         <h2 class="font-montserrat text-2xl font-bold">Filosofía del diseño</h2>
-        <p class="font-montserrat text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+        <p class="font-montserrat text-gray-600">Minimalism is not an aesthetic choice; It is a functional requierement. By removing noise, we amplify the signal. Every line, every pixel, and every margin must serve a distinct purpose or be ruthlessly eliminated.</p>
     </div>
 
     <div>
