@@ -10,9 +10,9 @@
 
     </div>
 
-    <div class="flex flex-col gap-6">
-        <h2 class="font-montserrat text-2xl font-bold">Filosofía del diseño</h2>
-        <p class="font-montserrat text-gray-600">Minimalism is not an aesthetic choice; It is a functional requierement. By removing noise, we amplify the signal. Every line, every pixel, and every margin must serve a distinct purpose or be ruthlessly eliminated.</p>
+    <div class="flex gap-6">
+        <h2 class="font-montserrat text-xl font-bold">Filosofía del diseño</h2>
+        <p class="font-montserrat text-lg text-gray-600">Minimalism is not an aesthetic choice; It is a functional requierement. By removing noise, we amplify the signal. Every line, every pixel, and every margin must serve a distinct purpose or be ruthlessly eliminated.</p>
     </div>
 
     <div>

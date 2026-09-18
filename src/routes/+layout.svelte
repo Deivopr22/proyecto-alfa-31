@@ -8,18 +8,17 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-<nav class = "flex justify-between items-center p-4 bg-gray-100 shadow-md">
-	<div>
-		<span></span>
-		<a href="/" class="font-montserrat text-lg tracking-widest font-bold uppercase">STUDIO</a>
+<nav class = "flex justify-between items-baseline p-4 bg-gray-100 shadow-md">
+	<div class="flex">
+		<a href="/" class="font-montserrat text-md tracking-widest font-bold uppercase">studio</a>
 	</div>
 
-	<div class ="flex gap-5 text-gray-600 text-xs tracking-widest uppercase">
-		<a href="/" class="font-bold underline underline-offset-4 hover:text-black">Home</a>
-		<a href="/projects" class="font-bold underline underline-offset-4 hover:text-black">Projects</a>
-		<a href="/information" class="font-bold underline underline-offset-4 hover:text-black">Information</a>
-		<a href="/summary" class="font-bold underline underline-offset-4 hover:text-black">Summary</a>
-		<a href="/contact" class="font-bold underline underline-offset-4 hover:text-black">Contact</a>
+	<div class ="flex gap-5 text-gray-600 text-xs justify-center items-center tracking-widest uppercase">
+		<a href="/" class="font-montserrat font-bold underline underline-offset-1 hover:text-black">Home</a>
+		<a href="/projects" class="font-montserrat font-bold underline underline-offset-1 hover:text-black">Projects</a>
+		<a href="/information" class="font-montserrat font-bold underline underline-offset-1 hover:text-black">Information</a>
+		<a href="/summary" class="font-montserrat font-bold underline underline-offset-1 hover:text-black">Summary</a>
+		<a href="/contact" class="font-montserrat font-bold underline underline-offset-1 hover:text-black">Contact</a>
 	</div>
 </nav>
 

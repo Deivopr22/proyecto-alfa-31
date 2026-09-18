@@ -14,8 +14,8 @@
         </article>
 
         <div class="space-y-2 text-left">
-            <h3 class="font-bold text-lg">{name}</h3>
-            <p class="text-gray-600">{category}</p>
+            <h3 class="font-bold text-lg text-montserrat">{name}</h3>
+            <p class="text-gray-600 text-montserrat">{category}</p>
         </div>
     </section>
 </a>
