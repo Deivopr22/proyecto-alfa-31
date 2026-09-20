@@ -1,4 +1,4 @@
-export const projects = [
+  export const projects = [
     {
       name: 'The Void Residence',
       category: 'ARCHITECTURE',

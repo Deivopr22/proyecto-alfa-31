@@ -9,16 +9,18 @@
         <h1 class="font-montserrat text-5xl md:text-6xl font-bold">Selected Works</h1>
         <p class="text-gray-600 text-base md:text-lg font-light leading-relaxed">A curated collection of recent projects exploring minimalism, editorial layout, and spatial design.</p>
     </section>
-</div>
 
-<section class="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-12">
-    {#each projects as project}
-      <ImagesCard
-        name={project.name}
-        category={project.category}
-        image={project.image}
-        id={project.id}
-        slug={project.slug}
-      />
-    {/each}
-  </section>
+    <hr class="border-gray-200 border-t w-full mb-16" />
+
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-12">
+        {#each projects as project}
+          <ImagesCard
+            name={project.name}
+            category={project.category}
+            image={project.image}
+            id={project.id}
+            slug={project.slug}
+          />
+        {/each}
+    </section>
+</div>

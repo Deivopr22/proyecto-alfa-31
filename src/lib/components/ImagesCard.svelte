@@ -1,21 +1,25 @@
 <script>
-
-    const {name, category, image, id, slug} = $props()
-
+    let {name, category, image, id, slug} = $props()
 </script>
 
 
-<a href={"/projects/" + slug}>
-    <section>
-        <article class="group flex flex-col space-y-4 cursor-pointer">
-            <div class="w-full aspect-square bg-gray-100 overflow-hidden">
-                <img src={image} alt={name} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" />
-            </div>
-        </article>
-
-        <div class="space-y-2 text-left">
-            <h3 class="font-bold text-lg text-montserrat">{name}</h3>
-            <p class="text-gray-600 text-montserrat">{category}</p>
+<a href={"/projects/" + slug} class="group block cursor-pointer">
+    <article class="flex flex-col h-full">
+        <div class="w-full aspect-square bg-gray-100 overflow-hidden mb-6">
+            <img 
+                src={image} 
+                alt={name} 
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+            />
         </div>
-    </section>
+
+        <div class="flex flex-col items-start gap-3">
+            <span class="border border-gray-300 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-widest text-gray-500 bg-transparent">
+                {category}
+            </span>
+            <h3 class="font-montserrat text-lg text-gray-900">
+                {name}
+            </h3>
+        </div>
+    </article>
 </a>
